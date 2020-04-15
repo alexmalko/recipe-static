@@ -1,0 +1,27 @@
+.navbar {
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	background: rgb(99, 197, 230);
+}
+
+.navbar a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.navbar a:hover {
+	background: #78ace9;
+}
+
+.navbar nav {
+	display: flex;
+}
+
+.navbar nav li {
+	margin: 0 15px;
+}
